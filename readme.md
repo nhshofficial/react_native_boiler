@@ -7,4 +7,5 @@ v1.0
 6. Internet availability check ready.
 7. Bottom Tab Navigation ready.
 8. Custom Theme Ready. To create one visit https://colors.eva.design/ and change file in ./src/theme.json
-\\nNote: Don't forget to run pod install after clone.
+
+Note: Don't forget to run pod install after clone.
