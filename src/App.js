@@ -7,21 +7,13 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  useColorScheme,
-  View,
-} from 'react-native';
+import {SafeAreaView} from 'react-native';
 import {ThemeContext} from './themes/theme-context';
 import * as eva from '@eva-design/eva';
-import {ApplicationProvider, IconRegistry, Text} from '@ui-kitten/components';
+import {ApplicationProvider, IconRegistry} from '@ui-kitten/components';
 import {EvaIconsPack} from '@ui-kitten/eva-icons';
 import Toast from 'react-native-toast-message';
-import {default as newTheme} from './theme.json';
+import {default as newTheme} from './themes/theme.json';
 import {AppNavigator} from './components/Navigation.component';
 import 'react-native-gesture-handler';
 import {db, createTable} from './components/DB';
